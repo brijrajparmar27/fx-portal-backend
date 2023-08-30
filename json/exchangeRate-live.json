@@ -1,0 +1,86 @@
+{
+    "date": "2021-01-28",
+    "endpoint": "live",
+    "exchangeRates": [
+        {
+            "ask": 1.20956,
+            "mid": 1.20958,
+            "bid": 1.20966,
+            "currencyPair": "EURUSD",
+            "quoteCurrency": "USD",
+            "baseCurrency": "EUR"
+        },
+        {
+            "ask": 0.87814,
+            "mid": 0.87818,
+            "bid": 0.87815,
+            "currencyPair": "EURGBP",
+            "quoteCurrency": "EUR",
+            "baseCurrency": "GBP"
+        },
+        {
+            "ask": 1.37745,
+            "mid": 1.37740,
+            "bid": 1.37747,
+            "currencyPair": "GBPUSD",
+            "quoteCurrency": "USD",
+            "baseCurrency": "GBP"
+        },
+        {
+            "ask": 0.077147,
+            "mid": 0.77145,
+            "bid": 0.77156,
+            "currencyPair": "AUDUSD",
+            "quoteCurrency": "USD",
+            "baseCurrency": "AUD"
+        },
+        {
+            "ask": 104.661,
+            "mid": 104.66,
+            "bid": 104.66,
+            "currencyPair": "USDJPY",
+            "quoteCurrency": "JPY",
+            "baseCurrency": "USD"
+        },
+        {
+            "ask": 126.627,
+            "mid": 126.627,
+            "bid": 126.627,
+            "currencyPair": "EURJPY",
+            "quoteCurrency": "JPY",
+            "baseCurrency": "EUR"
+        },
+        {
+            "ask": 14.8129,
+            "mid": 14.8133,
+            "bid": 14.8135,
+            "currencyPair": "USDZAR",
+            "quoteCurrency": "ZAR",
+            "baseCurrency": "USD"
+        },
+        {
+            "ask": 8.34706,
+            "mid": 8.34709,
+            "bid": 8.34638,
+            "currencyPair": "USDSEK",
+            "quoteCurrency": "SEK",
+            "baseCurrency": "USD"
+        },
+        {
+            "ask": 1.27476,
+            "mid": 1.27474,
+            "bid": 1.24746,
+            "currencyPair": "USDCAD",
+            "quoteCurrency": "CAD",
+            "baseCurrency": "USD"
+        },
+        {
+            "ask": 6.4356,
+            "mid": 6.4356,
+            "bid": 6.4356,
+            "currencyPair": "USDCNY",
+            "quoteCurrency": "CNY",
+            "baseCurrency": "USD"
+        }    
+    ]
+}

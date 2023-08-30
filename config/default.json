@@ -1,0 +1,13 @@
+{
+  "fxguard": {
+    "auth": "ZnhlbmdpbmU6cGFzc3dvcmQ=",
+    "base-url": "https://devapi.fxguard.co.uk",
+    "fx-auth-server": "/fx-auth-server",
+    "fx-crm": "/fx-crm",
+    "fx-forrex": "/fx-forrex",
+    "fx-kyc": "/fx-kyc",
+    "fx-payment": "/fx-payment",
+    "cms": "https://fxguard-cms.s3.eu-west-2.amazonaws.com/cms",
+    "HIDE_TRANSACTION_MODULE": "true"
+  }
+}

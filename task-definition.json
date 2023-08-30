@@ -1,0 +1,39 @@
+{
+  "containerDefinitions": [
+    {
+     "logConfiguration": {
+        "logDriver": "awslogs",        
+        "options": {
+          "awslogs-group": "/ecs/td-fx-portal-2",
+          "awslogs-region": "eu-west-2",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },     
+      "portMappings": [
+        {
+          "hostPort": 8080,
+          "protocol": "tcp",
+          "containerPort": 80
+        }
+      ],   
+      "cpu": 0,
+      "environment": [
+        {
+          "name": "JAVA_API",
+          "value": "https://devapi.fxguard.co.uk"
+        }
+      ],
+      "memoryReservation": 1024,
+      "volumesFrom": [],
+      "image": "248909911509.dkr.ecr.eu-west-2.amazonaws.com/fx-portal-2:%BUILD_TAG%",     
+      "name": "container-fx-portal-2"
+    }
+  ],
+  "placementConstraints": [],  
+  "family": "td-fx-portal-2",  
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "networkMode": "bridge",  
+  "volumes": []
+}
